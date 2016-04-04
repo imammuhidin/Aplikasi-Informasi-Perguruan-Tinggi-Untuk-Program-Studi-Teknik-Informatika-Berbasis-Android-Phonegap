@@ -1,0 +1,71 @@
+<!-- Copyright (c) 2012 Mobile Developer Solutions -->
+<!DOCTYPE HTML>
+<html>
+ <head>
+	<meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+	<title>Informasi Perguruan Tinggi</title>
+
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="index.css" />
+	
+    	
+	
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+   
+	<script src="jquery.mobile-1.4.5/jquery-1.7.2.min"></script>
+	<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="index.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/wilayah_list.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/universitas_list.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/universitas_detail.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  
+
+</script>  
+
+</style>
+  </head>
+  <body onload="init();" id="stage" class="theme">
+			<h1>Exit</h1>
+  
+ 	<div id="wilayahListPage" data-role="page" >
+	<div data-role="panel" id="panel" data-position="left" data-theme="a" data-display="push">
+	
+		<div class="ui-panel-inner">
+		
+			<ul data-role="listview" class="ui-listview">
+				
+			<div style="border:3px solid #007aff;margin-top:20px;font-size:10px;padding:25px;border-radius:25px;">
+			<h2><font>Aplikasi Informasi perguruan tinggi untuk program studi teknik informatika di wilayah jabodetabek</font></font></h2>
+			<p><font><font>"Aplikasi ini dibuat </font></font><code><font><font>untuk menyelesaikan</font></font></code><font><font>tahapan tugas akhir perkuliahan".</font></font></p>
+			</div>
+			
+			</ul>
+			
+		</div>
+    </div>
+	
+    
+	<div data-role="header">
+		<h1></h1>
+		<a  href="#panel" data-icon="bars"  class="ui-nodisc-icon" data-iconpos="notext"></a>
+		
+		
+	  
+		
+    </div>
+    
+    <div data-role="content" class="show-page-loading-msg">
+		<div class="ui-padding">
+			<h3 class="ui-padding-off">Pilih Wilayah</h3>
+		</div>
+			<div id="wilayahList"></div>
+	</div>
+     
+	 </div>
+  
+	</body> 
+
+	
+ 	 </html>

@@ -1,0 +1,41 @@
+<!-- Copyright (c) 2012 Mobile Developer Solutions -->
+<!DOCTYPE HTML>
+<html>
+ <head>
+	<meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+	<title>Informasi Perguruan Tinggi</title>
+
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="jakpus.css" /> 
+
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+   
+	<script src="jquery.mobile-1.4.5/jquery-1.7.2.min"></script>
+	<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="index.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/wilayah_list.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/universitas_list.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/universitas_detail.js"></script>
+	
+</head>
+<body>
+<div id="universitasListPage"  data-role="page">
+	<div data-role="header"   data-tap-toggle="false" role="banner" class="ui-header ui-bar-inherit">
+ 	
+ 	
+      <a data-ajax="false" href="index.html" id="back"  data-icon="carat-l" class="ui-nodisc-icon" data-iconpos="notext"></a>
+        <h1 class="header-title ui-title" role="heading" aria-level="1"><font><font></font></font></h1>
+		
+      </div>
+
+<div data-role="content"  class="show-page-loading-msg ui-nodisc-icon ui-padding ui-text-black">
+    <h3 id="nm_universitas" ></h3>
+	<div data-role="listview" id="universitas">
+        
+	</div>
+</div> 
+</div>
+
+</body>
+</html>

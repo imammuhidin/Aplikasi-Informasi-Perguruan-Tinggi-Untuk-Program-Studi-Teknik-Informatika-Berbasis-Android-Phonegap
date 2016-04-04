@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Informasi Perguruan Tinggi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="prodi.css" /> 
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	
+
+
+	<script src="jquery.mobile-1.4.5/jquery-1.7.2.min"></script>
+	<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="index.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/lokasi.js"></script>
+	
+	<script type="text/javascript" charset="utf-8" src="js/universitas_detail.js"></script>
+
+</head>
+<body>
+<div id="detailUniversitasListPage" data-role="page">
+	<div data-role="header"    role="banner" data-position="fixed" data-fullscreen="true" class="ui-header ui-bar-inherit">
+		<a data-ajax="false" href="index.html" id="back" data-icon="carat-l" class="ui-nodisc-icon"data-iconpos="notext"></a>
+		<h1 class="header-title ui-title" role="heading" aria-level="1"><font><font></font></font></h1>
+		
+    </div>
+	
+	 <div data-role="main"	id="gambar_universitas" class="card" >
+	
+	</div>
+	 
+      
+          
+   
+	
+	<div data-role="main" class="ui-content">
+	<div data-role="collapsibleset" data-iconpos="left" class="ui-nodisc-icon ui-alt-icon" data-mini="true" data-inline="true">
+   <div data-role="collapsible" data-iconpos="left" class="ui-nodisc-icon ui-alt-icon" data-mini="true" data-inline="true">
+ 
+<h3>Dosen</h3>
+<table data-role="table" id="table2" data-mode="reflow" class="ui-responsive ui-shadow">
+	<thead>
+		<tr>
+			<th data-priority="1">NO</th>
+			<th style="width:40%">Nama Dosen</th>
+			<th data-priority="2">Gelar</th>
+			<th data-priority="3"><abbr title="Pendidikan">Pendidikan</abbr></th>
+		</tr>
+	</thead>
+	<tbody id="detail_universitas"></tbody>
+</table>
+	</div>
+	</div>
+	
+
+	
+	
+	
+		
+ 	 <div data-role="collapsible" data-iconpos="left" class="ui-nodisc-icon ui-alt-icon" data-mini="true" data-inline="true">
+ 
+<h3>Detail</h3>
+<table data-role="table" id="table2" data-mode="reflow" class="ui-responsive ui-shadow">
+	<thead>
+	
+		<tr>
+		
+			<th data-priority="1">Status Prodi</th>
+			<th data-priority="2">Kode Prodi</th>
+			<th data-priority="3">Nama Prodi</th>
+			<th data-priority="4">Tanggal Berdiri</th>
+			<th data-priority="5">SK Penyelengara</th>
+			<th data-priority="6">Tanggal SK</th>
+			<th data-priority="7">Rasio Dosen</th>
+			<th data-priority="8">Alamat</th>
+			<th data-priority="9">Kode Pos</th>
+			<th data-priority="9">Telepon</th>
+			<th data-priority="10">Faximile</th>
+			<th data-priority="10">Email</th>
+			<th data-priority="10">Website</th>
+		</tr>
+	</thead>
+	<tbody id="deskripsi_universitas"></tbody>
+	
+</table>
+	</div>
+
+				
+		
+		
+		</div>
+		
+
+
+        
+ <div data-role="main"  class="ui-nodisc-icon ui-alt-icon" >
+   
+  
+ 
+<div  class="ui-padding">
+	
+</div>
+
+
+    <div data-role="listview" id="map_universitas"   class="show-page-loading-msg ui-nodisc-icon ui-alt-icon"></div>
+	
+	     
+		  
+		  
+	
+	
+	
+	
+	
+
+       
+       
+		
+          
+
+<div data-role="footer" data-theme="a" data-position="fixed" data-fullscreen="true">
+	<h1></h1>
+</div><!-- /footer -->
+</div>
+</body>
+</html>
+
+
+  
+     
+      
+      
+      
+      
+      
+      
+      
+      
+     
+ 
+    
+    

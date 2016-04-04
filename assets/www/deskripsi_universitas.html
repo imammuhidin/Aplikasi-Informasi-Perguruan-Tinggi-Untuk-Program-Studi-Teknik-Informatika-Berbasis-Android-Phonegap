@@ -1,0 +1,128 @@
+<!-- Copyright (c) 2012 Mobile Developer Solutions -->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Informasi Perguruan Tinggi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="prodi.css" /> 
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+	<script src="jquery.mobile-1.4.5/jquery-1.7.2.min"></script>
+	<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="index.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/universitas_detail.js"></script>
+</head>
+<body>
+<div id="detailUniversitasListPage" data-role="page">
+	<div data-role="header"   role="banner" data-position="fixed" data-fullscreen="true" class="ui-header ui-bar-inherit">
+		<a data-ajax="false" href="index.html" id="back" data-icon="carat-l" class="ui-nodisc-icon"data-iconpos="notext"></a>
+		<h1 class="header-title ui-title" role="heading" aria-level="1"><font><font></font></font></h1>
+    </div>
+    <div class="card">
+		<div class="card-name"></div>
+		<div class="card-desc"><br></div>
+    </div>
+	<div data-role="main" class="ui-content">
+	<div data-role="collapsibleset" data-iconpos="left" class="ui-nodisc-icon ui-alt-icon" data-mini="true" data-inline="true">
+   <div data-role="collapsible" data-iconpos="left" class="ui-nodisc-icon ui-alt-icon" data-mini="true" data-inline="true">
+ 
+<h3>Dosen</h3>
+<table data-role="table" id="table2" data-mode="reflow" class="ui-responsive ui-shadow">
+	<thead>
+		<tr>
+			<th data-priority="1">NO</th>
+			<th style="width:40%">Nama Dosen</th>
+			<th data-priority="2">Gelar</th>
+			<th data-priority="3"><abbr title="Pendidikan">Pendidikan</abbr></th>
+		</tr>
+	</thead>
+	<tbody id="detail_universitas"></tbody>
+</table>
+	</div>
+	</div>
+ 	<div data-role="collapsible" data-iconpos="left" class="ui-nodisc-icon ui-alt-icon" data-mini="true" data-inline="true">
+		<h3>Detail</h3>
+          <table class="table1" id="table1" >
+			
+				<td class="tright" width="200px">Status Prodi</td>
+				<td width="30px" class="tcenter">:</td>
+				
+			</tr>
+	<tbody id="deskripsi_universitas"></tbody>
+		</table>
+</div>
+
+
+
+
+
+
+    
+    
+  </div>
+
+
+        
+ <div data-role="main"  class="ui-nodisc-icon ui-alt-icon" >
+   
+  
+ 
+<div class="ui-padding">
+	<h3></h3>
+</div>
+    <ul data-role="listview"  class="show-page-loading-msg">
+        <li>
+			<a data-ajax="false" href="lokasi.html" rel="external" ><img class="ui-circle ui-mini ui-padding" src="jquery.mobile-1.4.5/images/icons-png/ios7-location-outline.png"/>
+            <h2 class="ui-text-black">Lokasi</h2><p>Lihat Lokasi</p></a>
+        </li>
+		<li>
+            <a data-ajax="false"  href="rute.html">
+              <img class="ui-circle ui-mini ui-padding" src="jquery.mobile-1.4.5/images/icons-png/ios7-navigate-outline.png"/>
+              <h2 class="ui-text-black">Navigasi</h2><p>Lihat Rute</p>
+            </a>
+         
+        </li>
+		<li>
+            <a href="tel:021-3914075" rel="external">
+            <img class="ui-circle ui-mini ui-padding" src="jquery.mobile-1.4.5/images/icons-png/ios7-telephone-outline.png" />
+            <h2 class="ui-text-black">Telepon</h2><p>kontak person</p>
+            </a>
+        </li>
+		<li>
+			<a href="http://www.yai.ac.id/upi.html" rel="external">
+            <img class="ui-circle ui-mini ui-padding" src="jquery.mobile-1.4.5/images/icons-png/ios7-world-outline.png" />
+              <h2 class="ui-text-black">Website</h2><p>Telusuri Web</p>
+            </a>
+        </li>
+		<li>
+			<a href="mailto:fti@yai.ac.id" rel="external">
+            <img class="ui-circle ui-mini ui-padding" src="jquery.mobile-1.4.5/images/icons-png/ios7-email-outline.png" />
+            <h2 class="ui-text-black">Email</h2><p>Kirim Email</p>
+            </a>
+        </li>
+	</ul>
+</div> 
+<div data-role="footer" data-theme="a" data-position="fixed" data-fullscreen="true">
+	<h1></h1>
+</div><!-- /footer -->
+</div>
+</body>
+</html>
+
+
+  
+     
+      
+      
+      
+      
+      
+      
+      
+      
+     
+ 
+    
+    
